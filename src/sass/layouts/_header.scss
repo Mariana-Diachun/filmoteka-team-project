@@ -1,7 +1,4 @@
 // header
-.header {
-
-}
 .home {
     background-image: url(../images/mob-abstract-background-with-red-lines-1x.jpeg);
     background-position: center;
@@ -9,9 +6,15 @@
     background-repeat: no-repeat;
 
     @media screen and (min-width: 768px) {
-        height: 230px;
-        background-image: url(../images/mob-abstract-background-with-red-lines-2x.jpeg);
+        height: 219px;
+        background-image: url(../images/tab-home-abstract-background-with-red-lines-2x.jpeg);
 }
+
+@media screen and (min-width: 1280px) {
+    height: 216px;
+    background-image: url(../images/desc-home-abstract-background-with-red-lines-2x.jpeg);
+}
+
 }
 
 .header-container {
@@ -37,7 +40,6 @@
     margin-right: 10px;
 }
 .logo-title {
-    font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -109,8 +111,6 @@
     font-size: 14px;
     line-height: 1.14;
 }
-.header__form-lab {
-}
 .header__form-input {
     width: 280px;
   font-family: 'Roboto';
@@ -132,10 +132,10 @@
     width: 336px;
   }
 }
-.header__-search-btn {
+.header__search-btn {
     padding: 3px;
   position: absolute;
-  right: -15px;
+//   right: -15px;
   bottom: 0;
   background: transparent;
   border: none;
@@ -149,9 +149,6 @@
   }
 }
 
-.search__icon {
-
-}
 .header__library {
 }
 .header__library-buttons {
@@ -159,11 +156,45 @@
   justify-content: center;
   align-items: center;
 }
-.header__library-buttons-item {
+.header__library-buttons-item:first-child {
+    margin-right: 20px;
+  @media screen and (min-width: 768px) {
+    margin-right: 32px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-right: 16px;
+}
 }
 .library-buttons-button {
+    width: 129.5px;
+    height: 44px;
+  
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    background-color: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 768px) {
+      width: 152px;
+    }
+    @media screen and (min-width: 1024px) {
+      width: 148px;
+    }
+
 }
+.library-buttons-button:hover,
+.library-buttons-button:focus {
+    background-color: #ff6b08;
+    border: 1px solid #ff6b08;
+}
+
 .watched {
+
 }
 .queue {
 }
