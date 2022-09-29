@@ -1,7 +1,6 @@
 import { refs } from './refs';
-console.log(refs.addToWatchedBtn);
 const STORAGE_KEY = 'movie';
-refs.addToWatchedBtn.addEventListener('click', onAddToWatchedBtnClick());
+// refs.addToWatchedBtn.addEventListener('click', onAddToWatchedBtnClick());
 
 function onAddToWatchedBtnClick(event) {
   setInLocalStorage();
