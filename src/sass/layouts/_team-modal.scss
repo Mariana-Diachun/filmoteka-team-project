@@ -122,6 +122,7 @@
   }
   @media screen and (min-width: 1280px) {
     font-size: 20px;
+    font-weight: 900;
   }
 }
 
@@ -135,6 +136,7 @@
   }
   @media screen and (min-width: 1280px) {
     font-size: 18px;
+    font-weight: 700;
   }
 }
 
@@ -168,7 +170,7 @@
   width: 34px;
 }
 
-//крестик
+//Кнопка
 .team__close-button {
   position: absolute;
   top: 8px;
@@ -200,7 +202,7 @@
   }
 }
 
-//title
+// Назва
 
 .team-title {
   text-align: center;
@@ -220,7 +222,7 @@
   font-size: 18px;
   line-height: 1.15;
 
-  color: #8c8c8c;
+  color: #414141;
   margin-top: 10px;
   margin-bottom: 20px;
   @media screen and (min-width: 768px) {
