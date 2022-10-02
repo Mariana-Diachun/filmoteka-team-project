@@ -8,7 +8,7 @@ export const renderCard = (movie, genres) => {
   return `
     <li class="movie-card">
       <article class="movie-card__article movie-item-js" data-id="${movie.id}">
-        <img width="440" height="660" class="movie-card__img" src="${IMAGE_URL}${
+        <img width="395" height="574" class="movie-card__img" src="${IMAGE_URL}${
     movie.poster_path
   }">
         <div class="movie-card__header">
